@@ -42,5 +42,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Akston Biosciences is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Akston Biosciences Corporation is a privately held biotechnology company headquartered in Beverly, Massachusetts, founded in 2011 by the team from SmartCells, Inc. It designs, develops and manufactures protein therapeutics on its proprietary Ambifect Fc-fusion protein platform, with a pipeline focused on companion-animal medicine — PD-L1 oncology candidates, a long-acting GLP-1 for feline weight management, IL-31 and NGF targeting therapies — plus human programs through its Vakston and Diamune Therapeutics subsidiaries.
+
+Akston is a therapeutics developer and manufacturer, not a software vendor. It publishes a corporate marketing site and **no public API, SDK, developer portal, or machine-readable specification**. See `x-coverage` in `apis.yml` for the probes behind that finding.
+
+- https://www.akstonbio.com/
+- https://www.akstonbio.com/pipeline/
+- https://www.linkedin.com/company/akston-biosciences-corporation/

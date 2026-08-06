@@ -1,17 +1,36 @@
 aid: akston-biosciences
 name: Akston Biosciences
-description: 'Akston Biosciences is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Akston Biosciences Corporation is a privately held biotechnology company
+  headquartered in Beverly, Massachusetts, founded in 2011 by the team from SmartCells,
+  Inc. and led by CEO Todd Zion, Ph.D. Akston designs, develops and manufactures protein
+  therapeutics built on its proprietary Ambifect Fc-fusion protein platform, with a
+  pipeline focused on companion-animal (veterinary) medicine: PD-L1 monoclonal antibody
+  oncology candidates (AKS-701d, AKS-619d), a long-acting GLP-1 for feline weight management
+  (AKS-562c), an IL-31 targeting therapy for canine pruritus (AKS-699), and NGF-targeting
+  candidates for osteoarthritis pain. Its veterinary insulin program was sold to Dechra
+  in 2024, and human programs continue through the Vakston and Diamune Therapeutics
+  subsidiaries. The company announced a manufacturing expansion in Shreveport, Louisiana.
+  Akston is a therapeutics developer and manufacturer, not a software vendor: it publishes
+  a corporate marketing site and no public API, SDK, developer portal or machine-readable
+  specification.'
 url: https://raw.githubusercontent.com/api-evangelist/akston-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
+image: https://www.akstonbio.com/wp-content/themes/ssw-akston/assets/images/header/akston-logo.svg
 specificationVersion: '0.20'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Pharmaceuticals
+- Animal Health
+- Veterinary Medicine
+- Protein Therapeutics
+- Biomanufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +39,46 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.akstonbio.com/
+- type: About
+  url: https://www.akstonbio.com/about/
+- type: Blog
+  url: https://www.akstonbio.com/news/
+- type: BlogRSS
+  url: https://www.akstonbio.com/feed/
+- type: Contact
+  url: https://www.akstonbio.com/contact/
+- type: Careers
+  url: https://www.akstonbio.com/careers/
+- type: Team
+  url: https://www.akstonbio.com/team/
+- type: Partners
+  url: https://www.akstonbio.com/partners/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/akston-biosciences-corporation/
+- type: DomainSecurity
+  url: security/akston-biosciences-domain-security.yml
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Akston Biosciences is a veterinary protein-therapeutics developer and manufacturer
+    whose entire web presence is a nine-page WordPress marketing site (about/process/pipeline/news/careers/contact)
+    with no developer section; api., developer., docs. and portal.akstonbio.com are all
+    NXDOMAIN and every spec and .well-known probe returned 404.
+  evidence:
+  - url: https://www.akstonbio.com/openapi.json
+    status: 404
+  - url: https://www.akstonbio.com/llms.txt
+    status: 404
+  - url: https://www.akstonbio.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.akstonbio.com/.well-known/security.txt
+    status: 404
+  - url: https://www.akstonbio.com/sitemap.xml
+    status: 200
+  checked: '2026-08-06'
