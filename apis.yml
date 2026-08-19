@@ -19,7 +19,7 @@ x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
 image: https://www.akstonbio.com/wp-content/themes/ssw-akston/assets/images/header/akston-logo.svg
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
