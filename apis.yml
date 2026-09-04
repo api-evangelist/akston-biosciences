@@ -29,6 +29,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://www.akstonbio.com/wp-content/themes/ssw-akston/assets/images/header/akston-logo.svg
 specificationVersion: '0.23'
 created: '2026-08-06'
