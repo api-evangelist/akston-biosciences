@@ -64,10 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Akston Biosciences Corporation is a privately held biotechnology company headquartered in Beverly, Massachusetts, founded in 2011 by the team from SmartCells, Inc. It designs, develops and manufactures protein therapeutics on its proprietary Ambifect Fc-fusion protein platform, with a pipeline focused on companion-animal medicine — PD-L1 oncology candidates, a long-acting GLP-1 for feline weight management, IL-31 and NGF targeting therapies — plus human programs through its Vakston and Diamune Therapeutics subsidiaries.
+Akston Biosciences Corporation is a privately held biotechnology company headquartered in Beverly, Massachusetts, founded in 2011 by the team from SmartCells, Inc. and led by CEO Todd Zion, Ph.D. Akston designs, develops and manufactures protein therapeutics built on its proprietary Ambifect Fc-fusion protein platform, with a pipeline focused on companion-animal (veterinary) medicine: PD-L1 monoclonal antibody oncology candidates (AKS-701d, AKS-619d), a long-acting GLP-1 for feline weight management (AKS-562c), an IL-31 targeting therapy for canine pruritus (AKS-699), and NGF-targeting candidates for osteoarthritis pain. Its veterinary insulin program was sold to Dechra in 2024, and human programs continue through the Vakston and Diamune Therapeutics subsidiaries. The company announced a manufacturing expansion in Shreveport, Louisiana. Akston is a therapeutics developer and manufacturer, not a software vendor: it publishes a corporate marketing site and no public API, SDK, developer portal or machine-readable specification.
 
-Akston is a therapeutics developer and manufacturer, not a software vendor. It publishes a corporate marketing site and **no public API, SDK, developer portal, or machine-readable specification**. See `x-coverage` in `apis.yml` for the probes behind that finding.
+**Areas:** Company · Biotechnology · Life Sciences · Pharmaceuticals · Animal Health · Veterinary Medicine · Protein Therapeutics · Biomanufacturing
 
-- https://www.akstonbio.com/
-- https://www.akstonbio.com/pipeline/
-- https://www.linkedin.com/company/akston-biosciences-corporation/
+## Akston Biosciences on APIs.io
+
+Everything profiled for Akston Biosciences is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/akston-biosciences/](https://apis.io/providers/akston-biosciences/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Akston Biosciences Domain Security](https://apis.io/security/akston-biosciences/akston-biosciences-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.akstonbio.com/)
+- [Blog](https://www.akstonbio.com/news/)
+
+## API Evangelist rating
+
+**Kin Score 4.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/akston-biosciences/](https://apis.io/providers/akston-biosciences/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Akston Biosciences: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/akston-biosciences/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
